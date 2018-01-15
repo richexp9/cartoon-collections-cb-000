@@ -22,9 +22,9 @@ def long_planeteer_calls(array)
   }
 
   if collection.include?(true)
-    return false
-  else
     return true
+  else
+    return false
   end
 end
 
