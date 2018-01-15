@@ -4,12 +4,10 @@ def roll_call_dwarves(array)
   array.each_with_index { |e, i|
     puts "#{i+1}. #{e}"
   }
-  array
 end
 
-roll_call_dwarves(['alpha', 'beta'])
 def summon_captain_planet(array)
-
+  array
 end
 
 def long_planeteer_calls(array)
