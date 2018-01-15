@@ -33,7 +33,8 @@ def find_the_cheese(array)
   cheese_types.each_with_index { |cheese, cheeseIndex|
       array.each_with_index { |element, elementIndex|
         if element == cheese
-           final = element
+           return element
+
         else
            final = false
         end
