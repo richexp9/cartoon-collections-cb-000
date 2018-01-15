@@ -34,9 +34,8 @@ def find_the_cheese(array)
       array.each_with_index { |element, elementIndex|
         if element == cheese
            return element
-
         else
-           final = false
+           final = nil
         end
       }
   }
