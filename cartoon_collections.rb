@@ -32,9 +32,9 @@ def find_the_cheese(array)
   cheese_types.each_with_index { |cheese, cheeseIndex|
       array.each_with_index { |element, elementIndex|
         if element == cheese
-          return element
+           element
         else
-          return 'you suck'
+           'you suck'
         end
       }
   }
