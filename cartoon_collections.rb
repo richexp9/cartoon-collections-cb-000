@@ -18,7 +18,7 @@ def long_planeteer_calls(array)
   i = 0
   collection = []
   array.each { |e|
-    collection << yield(e)
+    collection << e
   }
 
   if collection.include?(false)
