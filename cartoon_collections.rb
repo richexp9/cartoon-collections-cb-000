@@ -21,7 +21,7 @@ def long_planeteer_calls(array)
     collection << e
   }
 
-  if collection.include?(false)
+  if collection.include?(true)
     return false
   else
     return true
