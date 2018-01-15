@@ -18,14 +18,10 @@ def long_planeteer_calls(array)
   i = 0
   collection = []
   array.each { |e|
-    collection << e
+    if e.size > 4
+      return true
   }
 
-  if collection.include?(true)
-    return true
-  else
-    return false
-  end
 end
 
 def find_the_cheese(array)
