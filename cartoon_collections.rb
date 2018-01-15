@@ -4,7 +4,7 @@ def roll_call_dwarves(array)
   array.each_with_index { |e, i|
     puts "#{i+1}. #{e}"
   }
-  binding.pry
+  array
 end
 
 roll_call_dwarves(['alpha', 'beta'])
