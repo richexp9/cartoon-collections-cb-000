@@ -28,16 +28,17 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
+  final = ''
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each_with_index { |cheese, cheeseIndex|
       array.each_with_index { |element, elementIndex|
         if element == cheese
-           element
+           final = element
         else
-           'you suck'
+           final = false
         end
       }
   }
-
+  final
 
 end
