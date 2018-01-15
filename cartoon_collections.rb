@@ -7,6 +7,7 @@ def roll_call_dwarves(array)
   binding.pry
 end
 
+roll_call_dwarves(['alpha', 'beta'])
 def summon_captain_planet(array)
 
 end
