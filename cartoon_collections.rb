@@ -31,9 +31,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each_with_index { |cheese, cheeseIndex|
         if array.include?(cheese)
-          array.find?
-        else
-          return false
+        end
   }
 
 
