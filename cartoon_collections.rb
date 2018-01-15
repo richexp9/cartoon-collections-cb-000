@@ -20,6 +20,8 @@ def long_planeteer_calls(array)
   array.each { |e|
     if e.size > 4
       return true
+    else
+      return false
     end
   }
 
