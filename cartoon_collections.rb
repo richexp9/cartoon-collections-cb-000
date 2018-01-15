@@ -9,7 +9,7 @@ end
 def summon_captain_planet(array)
   collection = []
   array.each_with_index { |e, i|
-    collection.push(e.slice(0,1).upcase + e[1,e.size])
+    collection.push(e.slice(0,1).upcase + e[1,e.size] +"!")
   }
   collection
 end
