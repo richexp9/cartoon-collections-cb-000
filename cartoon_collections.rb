@@ -34,7 +34,7 @@ def find_the_cheese(array)
         if element == cheese
           return element
         else
-          return false
+          return 'you suck'
         end
       }
   }
