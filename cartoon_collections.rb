@@ -31,7 +31,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each_with_index { |cheese, cheeseIndex|
       array.each_with_index { |element, elementIndex|
-        if element === cheese
+        if element == cheese
           return element
         else
           return false
